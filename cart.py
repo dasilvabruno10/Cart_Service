@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-PRODUCT_SERVICE_URL = 'http://product-service-url-here'  # Replace with your Product Service URL
+PRODUCT_SERVICE_URL = 'https://product-service-ppqh.onrender.com'  # Replace with your Product Service URL
 
 @app.route('/cart/<int:user_id>', methods=['GET'])
 def get_cart(user_id):
